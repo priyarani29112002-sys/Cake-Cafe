@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CakeCafé - Sweet Moments</title>
+
+  <!-- Link external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <h1>🎂 CakeCafé </h1>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+        <li><a href="#login">Order & Track</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="hero">
+    <video autoplay muted loop>
+      <source src="videos/2235521_Baking_Making_3840x2160.mp4" type="video/mp4">
+      Your browser does not support video.
+    </video>
+    <div class="hero-text">
+      <h2>Welcome to CakeCafé</h2>
+      <p>Delicious cakes baked with love and creativity</p>
+      <a href="#menu" class="btn">Explore Menu</a>
+    </div>
+  </section>
+
+  <!-- ===== MENU SECTION ===== -->
+  <section id="menu" class="menu">
+    <h2>Our Special Cakes</h2>
+    <div class="menu-items">
+      <div class="cake-card">
+        <img src="images/close-up-view-delicious-chocolate-cake-concept.jpg" alt="Chocolate Cake">
+        <h3>Chocolate Truffle</h3>
+        <p>Rich and creamy chocolate layers.</p>
+        <a href="#login" class="btn">Order Now</a>
+      </div>
+      <div class="cake-card">
+        <img src="images/delicious-cake-with-coconut-high-angle.jpg" alt="Vanilla Cake">
+        <h3>Vanilla Dream</h3>
+        <p>Soft vanilla delight with creamy frosting.</p>
+        <a href="#login" class="btn">Order Now</a>
+      </div>
+      <div class="cake-card">
+        <img src="images/red-velvet-cake-heart-shape-garnished-with-raspberries-mint-leaves.jpg" alt="Red Velvet Cake">
+        <h3>Red Velvet</h3>
+        <p>Classic red velvet with cream cheese icing.</p>
+        <a href="#login" class="btn">Order Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEEDBACK SECTION ===== -->
+  <section id="feedback" class="feedback">
+    <h2>We Value Your Feedback</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Write your feedback..." required></textarea>
+      <input type="submit" value="Submit Feedback">
+    </form>
+  </section>
+
+  <!-- ===== LOGIN SECTION ===== -->
+  <section id="login" class="login-section">
+    <h2>Login to Track Your Orders</h2>
+    <form class="login-form">
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <input type="submit" value="Login">
+    </form>
+    <p>Don’t have an account? <a href="#">Sign Up</a></p>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2025 CakeCafé | Made with ❤️ for Sweet Lovers</p>
+  </footer>
+</body>
+</html>
